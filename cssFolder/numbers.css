@@ -1,0 +1,40 @@
+.randoms{
+   margin: 0 auto;
+   width: 80%;
+   border: 2px solid #EEEEEE;
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 70px;
+   font-weight:bold;
+   color: #666666;
+}
+.randoms div{
+   text-align: center;
+  
+}
+.midle{
+   margin-top: 35px;
+    width: 15px;
+   height: 15px;
+   background-color: #F3602D;
+
+   border-radius: 45%;
+}
+.midle1{
+   margin-top: 35px;
+    width: 15px;
+   height: 15px;
+   background-color: #087406;
+
+   border-radius: 45%;
+}
+.midle2{
+   margin-top: 35px;
+    width: 15px;
+   height: 15px;
+   background-color: #FFC700;
+   border-radius: 45%;
+}
+.randoms span{
+   font-size: 18px;
+}

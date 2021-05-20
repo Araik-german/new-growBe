@@ -1,0 +1,66 @@
+footer {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer li:hover{
+  color: #F25822;
+}
+
+footer div {
+  margin: 15px;
+  width: 280px;
+  padding: 40px;
+  line-height: 30px;
+  color: #666666;
+  font-size: 16px;
+}
+
+footer div h4 {
+  margin-bottom: 30px;
+  color: black;
+  font-size: 24px;
+}
+footer .info1 {
+  margin: 0;
+}
+.info1 h4::after{
+    content: "Be";
+    color: #F25822;
+}
+footer .forlogo1{
+  display: flex;
+  margin: 10px;
+  padding: 0;
+}
+.info1Logos{
+  
+  padding: 0;
+  display: flex;
+}
+.info1Logos a{
+  margin: 10px;
+}
+.info1Logos a i:hover{
+  color:#F25822 ;
+}
+.forlogo1 img{
+  width: 35px;
+  height: 40px;
+}
+footer   h5 {
+  font-size: 18px;
+  color: rgb(8, 8, 8);
+}
+.line{
+  margin-left: 15%;
+  height: 3px;
+  width: 70%;
+  background-color: #6b686880;
+}

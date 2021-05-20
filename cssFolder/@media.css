@@ -1,0 +1,260 @@
+@media screen and (max-width: 1365px) {
+  nav {
+    width: 100%;
+  }
+  nav .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav .options {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .top {
+    width: 100%;
+  }
+  .top .top_left {
+    width: 50%;
+  }
+  .top .top_left .a_bold_text {
+    width: 100%;
+  }
+  .top .top_right {
+    width: 50%;
+    height: 400px;
+  }
+  .top .top_right img {
+    width: 100%;
+  }
+  .parent {
+    margin-top: 50px;
+  }
+  .parent .left_child {
+    width: 50%;
+  }
+  .parent .left_child span {
+    width: 100%;
+  }
+  .parent .right_child {
+    width: 50%;
+  }
+  .parent .right_child img {
+    margin-top: 150px;
+    width: 100%;
+  }
+  .successSteps .block {
+    margin-top: 80px;
+    width: 280px;
+  }
+  .what_is_SEO {
+    width: 1000px;
+  }
+  .randoms {
+    width: 100%;
+  }
+  .successSteps .block p {
+    width: 200px;
+  }
+  .ourExperts {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .ourExperts .exp {
+    margin: 30px;
+    width: 300px;
+    padding: 30px;
+    border: 1px solid #EEEEEE;
+  }
+  .ourClients {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  footer {
+    margin: 0 auto;
+    width: 100%;
+  }
+  footer div {
+    width: 330px;
+    font-size: 14px;
+  }
+  .whyTooChooseUs {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .ourPlans {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .ourPlans .offers {
+    width: 300px;
+  }
+  .ourPlans .offers p {
+    width: 150px;
+  }
+  .websiteSpeed {
+    width: 100%;
+  }
+  .websiteSpeed .speed_left {
+    width: 545px;
+  }
+  .websiteSpeed .speed_right {
+    width: 434px;
+  }
+  .what_is_SEO {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  nav {
+    margin: 0 auto;
+  }
+  nav .navbar {
+    display: none;
+  }
+  nav .menu {
+    display: block;
+  }
+  .top {
+    width: 100%;
+  }
+  .top .top_left {
+    width: 100%;
+  }
+  .top .top_left .grey_text {
+    width: 100%;
+  }
+  .top .top_left .a_bold_text {
+    width: 100%;
+  }
+  .top .top_right {
+    width: 100%;
+    height: 400px;
+  }
+  .top .top_right img {
+    width: 100%;
+  }
+  .SEO_left {
+    display: none;
+  }
+  .what_is_SEO .SEO_right {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .what_is_SEO .SEO_right .title {
+    width: 100%;
+  }
+  .what_is_SEO .SEO_right .round #pice {
+    position: absolute;
+    margin-top: -72%;
+    margin-left: 0%;
+  }
+  .parent {
+    margin-top: 50px;
+  }
+  .parent .left_child {
+    text-align: center;
+    width: 100%;
+  }
+  .parent .left_child h4 {
+    width: 100%;
+    padding-top: 70px;
+    margin: 0 auto;
+  }
+  .parent .left_child span {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .parent .left_child button {
+    margin: 0 auto;
+  }
+  .parent .right_child {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 90px;
+  }
+  .parent .right_child img {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .successSteps {
+    margin: 50px 0;
+    width: 100%;
+  }
+  .successSteps .block {
+    width: 70%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .websiteSpeed {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .websiteSpeed .speed_left {
+    width: 100%;
+  }
+  .websiteSpeed .speed_left .block_inp {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .websiteSpeed .speed_left .block_inp .inputs {
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+  .websiteSpeed .speed_left .block_inp .inputs .inp2 {
+    width: 50%;
+  }
+  .websiteSpeed .speed_left .block_inp .inputs .inp1 {
+    width: 50%;
+  }
+  .websiteSpeed .speed_left .block_inp .sub {
+    margin: 0 auto;
+  }
+  .websiteSpeed .speed_left h2 {
+    width: 100%;
+  }
+  .websiteSpeed .speed_left p {
+    width: 100%;
+  }
+  .websiteSpeed .speed_right {
+    width: 434px;
+  }
+  .ourExperts .p {
+    width: 100%;
+  }
+  .container div img {
+    width: 100%;
+  }
+  .ourClients .sim-slider {
+    width: 100%;
+  }
+  footer .info1, .info2, .info3, .info4 {
+    padding: 10px;
+  }
+  .randoms {
+    font-size: 30px;
+  }
+  .randoms span {
+    font-size: 14px;
+  }
+}

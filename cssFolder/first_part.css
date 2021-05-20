@@ -1,0 +1,119 @@
+* {
+  text-decoration: none;
+}
+
+.parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.left_child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.left_child h4 {
+  margin-top: 35%;
+  width: 409px;
+  font-size: 45px;
+  line-height: 52px;
+}
+
+.left_child span {
+  margin-top: 20px;
+  width: 515px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.left_child .learnMore {
+  margin-top: 51px;
+  width: 140px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #F25822;
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+.right_child {
+  width: 800px;
+  height: 600px;
+}
+
+.successSteps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.successSteps .block {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 370px;
+}
+
+.successSteps .block:hover {
+  -webkit-box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.2);
+}
+
+.successSteps .block div {
+  padding: 25px;
+  border-radius: 15px;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 25px;
+}
+
+.successSteps .block .squer {
+  background-color: #f259224f;
+}
+
+.successSteps .block .squer1 {
+  background-color: #14921147;
+}
+
+.successSteps .block .squer2 {
+  background-color: #FFCD1D3D;
+}
+
+.successSteps .block h3 {
+  font-size: 24px;
+}
+
+.successSteps .block p {
+  margin-top: 17px;
+  margin-bottom: 25px;
+  word-spacing: 4px;
+  width: 310px;
+  font-size: 15px;
+  color: #666666;
+}
+
+.successSteps .block strong {
+  font-size: 11px;
+}

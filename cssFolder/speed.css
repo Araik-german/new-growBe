@@ -1,0 +1,86 @@
+.websiteSpeed {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: space-evenly;
+}
+
+.websiteSpeed .speed_left {
+  text-align: center;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.websiteSpeed .speed_left h2 {
+  margin-top: 30%;
+  width: 563px;
+  font-size: 45px;
+}
+
+.websiteSpeed .speed_left p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #666666;
+  line-height: 24px;
+  width: 458px;
+}
+
+.websiteSpeed .speed_right {
+  width: 40%;
+
+  
+}
+.websiteSpeed .speed_right img{
+  width: 100%;
+}
+
+.block_inp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.block_inp .sub {
+  width: 140px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #F25822;
+  color: #FFFDFD;
+  font-size: 13px;
+}
+
+.inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inputs .inp2 {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 0 50px 50px 0;
+}
+
+.inputs .inp1 {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px 0 0 50px;
+}
+/*# sourceMappingURL=speed.css.map */

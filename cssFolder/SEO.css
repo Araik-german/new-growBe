@@ -1,0 +1,111 @@
+.what_is_SEO {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.what_is_SEO .SEO_left {
+  width: 60%;
+  height: 800px;
+  background-image: url(../img/dribbble_illustration_v31.png);
+}
+
+.what_is_SEO .SEO_right {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.what_is_SEO .title {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.what_is_SEO .title h3 {
+  font-size: 45px;
+  line-height: 54px;
+}
+
+.what_is_SEO .title span {
+  font-size: 16px;
+  color: #666666;
+  line-height: 24px;
+}
+
+.what_is_SEO .social_media {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.what_is_SEO .email_marketing {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.what_is_SEO .SEO_optimization {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.what_is_SEO .round {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 90%;
+  background-color: aqua;
+}
+
+.what_is_SEO .round img {
+  margin: 35% 35%;
+}
+
+.what_is_SEO .round #pice {
+  position: absolute;
+  margin-top: -72%;
+  margin-left: 51%;
+}
+
+.what_is_SEO .text {
+  text-align: start;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.what_is_SEO .text h4 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.what_is_SEO .text p {
+  font-size: 15px;
+  color: #666666;
+}
+/*# sourceMappingURL=SEO.css.map */
